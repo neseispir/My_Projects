@@ -15,93 +15,124 @@
     </style>
   </head>
   <body>
-    <div>
-      <h1>Clarusway Survey Form</h1>
-      <p>Thank you for taking the time to help us improve the platform</p>
+    <form action="result.html" method="get">
+      <fieldset>
+        <div>
+          <h1>Clarusway Survey Form</h1>
+          <p>Thank you for taking the time to help us improve the platform</p>
 
-      <label for="ad">Name</label>
-      <br /><br />
-      <input
-        type="text"
-        name="girilen ad"
-        id="ad"
-        placeholder="Enter your name"
-      />
-      <br />
-      <label for="sadı">Surname</label>
-      <br /><br />
-      <input
-        type="text"
-        name="girilen sadı"
-        id="sadı"
-        placeholder="Enter your Surname"
-      />
-      <br />
-      <label for="email">Email</label>
-      <br /><br />
-      <input
-        type="text"
-        name="email"
-        id="email"
-        placeholder="user@clarusway.com"
-      />
-    </div>
-    <div>
-      <p>Which option best describes your currnet role?</p>
-      <select name="role" id="role" placeholder="select current role" size="0">
-        <option value="fronted">select current role</option>
-        <option value="backend">backend developer</option>
-        <option value="python">python developer</option>
-        <option value="react">react developer</option>
-      </select>
-    </div>
-    <div>
-      <p>Would you recommend Clarusway to a friend?</p>
-      <input type="radio" name="seçim" id="friend" />
-      <label for="friend">Definitely, Yes</label>
-      <br />
-      <input type="radio" name="seçim" id="friend1" />
-      <label for="friend1">Maybe</label>
-      <br />
-      <input type="radio" name="seçim" id="friend2" />
-      <label for="friend2">Not sure</label>
-      <br />
-      <input type="radio" name="seçim" id="friend3" />
-      <label for="friend3">Definetly, No</label>
-    </div>
-    <div>
-      <p>What is your favorite of Clarusway?</p>
-      <select name="favori" id="favori">
-        <option value="option">select an option</option>
-      </select>
-    </div>
-    <div>
-      <p>What would you like to see improved?(Check all that apply)</p>
-      <input type="checkbox" name="impr" id="impr" />
-      <label for="impr">Front-end Projects</label>
-      <br />
-      <input type="checkbox" name="impr1" id="impr1" />
-      <label for="impr1">Back-end Projects</label>
-      <br />
-      <input type="checkbox" name="impr2" id="impr2" />
-      <label for="impr2">Data Science</label>
-      <br />
-      <input type="checkbox" name="impr3" id="impr3" />
-      <label for="impr3">Additional Courses</label>
-      <br /><br /><br />
-    </div>
-    <div>
-      <label for="yorum">Any comments or suggestions?</label>
-      <br />
-      <textarea
-        name="girilen yorum"
-        id="yorum"
-        placeholder="Enter your comment here.. Thanks for your"
-      ></textarea>
-    </div>
-    <br /><br />
-    <div>
-      <input type="submit" value="submit" />
-    </div>
+          <label for="ad">Name</label>
+          <br /><br />
+          <input
+            type="text"
+            name="girilen ad"
+            id="ad"
+            placeholder="Enter your name"
+            required
+          />
+          <br />
+          <label for="sadı">Surname</label>
+          <br /><br />
+          <input
+            type="text"
+            name="girilen sadı"
+            id="sadı"
+            placeholder="Enter your Surname"
+            required
+          />
+          <br />
+          <label for="email">Email</label>
+          <br /><br />
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="user@clarusway.com"
+          />
+        </div>
+        <div>
+          <p>Which option best describes your currnet role?</p>
+          <select
+            name="role"
+            id="role"
+            placeholder="select current role"
+            size="0"
+          >
+            <option value="fronted">select current role</option>
+            <option value="backend">backend developer</option>
+            <option value="python">python developer</option>
+            <option value="react">react developer</option>
+          </select>
+        </div>
+        <div>
+          <p>Would you recommend Clarusway to a friend?</p>
+          <input
+            type="radio"
+            name="seçim"
+            id="friend"
+            value="Definitely, Yes"
+          />
+          <label for="friend">Definitely, Yes</label>
+          <br />
+          <input type="radio" name="seçim" id="friend1" value="Maybe" />
+          <label for="friend1">Maybe</label>
+          <br />
+          <input type="radio" name="seçim" id="friend2" value="Not sure" />
+          <label for="friend2">Not sure</label>
+          <br />
+          <input type="radio" name="seçim" id="friend3" value="Definetly, No" />
+          <label for="friend3">Definetly, No</label>
+        </div>
+        <div>
+          <p>What is your favorite of Clarusway?</p>
+          <select name="favori" id="favori">
+            <option value="option">select an option</option>
+          </select>
+        </div>
+        <div>
+          <p>What would you like to see improved?(Check all that apply)</p>
+          <input
+            type="checkbox"
+            name="impr"
+            id="impr"
+            value="Front-end Projects"
+          />
+          <label for="impr">Front-end Projects</label>
+          <br />
+          <input
+            type="checkbox"
+            name="impr1"
+            id="impr1"
+            value="Back-end Projects"
+          />
+          <label for="impr1">Back-end Projects</label>
+          <br />
+          <input type="checkbox" name="impr2" id="impr2" value="Data Science" />
+          <label for="impr2">Data Science</label>
+          <br />
+          <input
+            type="checkbox"
+            name="impr3"
+            id="impr3"
+            value="Additional Courses"
+          />
+          <label for="impr3">Additional Courses</label>
+          <br /><br /><br />
+        </div>
+        <div>
+          <label for="yorum">Any comments or suggestions?</label>
+          <br />
+          <textarea
+            name="girilen yorum"
+            id="yorum"
+            placeholder="Enter your comment here.. Thanks for your"
+          ></textarea>
+        </div>
+        <br /><br />
+        <div>
+          <input type="submit" value="submit" />
+        </div>
+      </fieldset>
+    </form>
   </body>
 </html>
