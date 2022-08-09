@@ -68,7 +68,9 @@ margin-top: 10px;
 }
 textarea{
     resize: none;
+    
 }
+
 #checbox, #radio{
     margin-top: 40px;
 
