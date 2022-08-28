@@ -1,0 +1,178 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 1.8rem;
+    color: #666;
+    height: 100%;
+    /*! height vererek sayfayı hareket etmesini sağladık */
+}
+
+.bolum1-img1 {
+    /* border: solid red; */
+
+    background-image: url(./img/bg.jpg);
+    min-height: 100%;
+}
+
+.bolum2 {
+    background-image: url(./img/bg2.jpg);
+    min-height: 80%;
+}
+
+.bolum3-img3 {
+    background-image: url(./img/bg3.jpg);
+    min-height: 80%;
+}
+
+.bolum4-img4 {
+    background-image: url(./img/bg4.jpg);
+    min-height: 80%;
+}
+
+.bolum5-img5 {
+    background-image: url(./img/bg1.jpg);
+    min-height: 80%;
+    /*! resimi genişlettim burada her bir resme min-height vererek */
+}
+
+.bolum1-img1,
+.bolum2,
+.bolum3-img3,
+.bolum4-img4,
+.bolum5-img5 {
+    /* border: solid red; */
+
+    background-position: center;
+    /*! resimleri ortalıyor */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*! resimleri tekrar etmesin diye bu kodu yazıyoruz */
+    background-attachment: fixed;
+    opacity: 0.7;
+    /*!resimlere opacklıkverdik */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.border2 {
+    /* border: solid red; */
+    width: 50%;
+    margin: 1rem;
+}
+
+.etiket1,
+.etiket2,
+.etiket3,
+.etiket4,
+.etiket5 {
+    /* border: solid red; */
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    color: white;
+
+}
+
+.border1 {
+    background-color: black;
+    padding: 2rem;
+    border-bottom-right-radius: 2rem;
+    /*! borderin sağ yukarısını sivrelttik */
+    border-top-left-radius: 2rem;
+    /*! borderin sol üst tarafını yuvarladık */
+
+    outline: 0.5rem inset purple;
+    /*! borderin dışını purple a  boyayıp,kalınlaştırdık */
+    outline-offset: 1rem;
+    /*! border ile outline arasını ayarladı */
+    text-transform: uppercase;
+    /*! clarusway yazısının hepsini büyük harfe aldı */
+    line-height: 5rem;
+}
+
+
+
+
+
+.etiket3 {
+    /* border: solid red; */
+    background-color: black;
+    padding: 2rem;
+    border-top-left-radius: 2rem;
+    /*! borderin sol üstünü kıvırıyor */
+    border-bottom-right-radius: 2rem;
+    /*! borderin sağ üstünü kıvırıyor */
+    outline: 0.5rem inset purple;
+    /*! borderin dışını çevreleyip boyadık */
+    outline-offset: 1rem;
+    /*! borderla outline arasına boşluk koyduk */
+    line-height: 5rem;
+    /*! yazıların alt alta geldiğinde birbirine girmesin diye mesafeyi ayarladık */
+}
+
+
+
+.etiket4 {
+    background-color: black;
+    padding: 2rem;
+    border-top-left-radius: 2rem;
+    /*! borderin sol üstünü kıvırıyor */
+    border-bottom-right-radius: 2rem;
+    /*! borderin sağ üstünü kıvırıyor */
+    outline: 0.5rem inset purple;
+    /*! borderin dışını çevreleyip boyadık */
+    outline-offset: 1rem;
+    /*! borderla outline arasına boşluk koyduk */
+    line-height: 5rem;
+    /*! yazıların alt alta geldiğinde birbirine girmesin diye mesafeyi ayarladık */
+
+}
+
+.box1 {
+    text-align: center;
+    padding: 3rem 5rem;
+}
+
+.box2 {
+    background-color: black;
+    text-align: center;
+    padding: 3rem 5rem;
+    /* color: white; */
+
+}
+
+.box3 {
+    /* border: solid red; */
+    text-align: center;
+    padding: 3rem 5rem;
+    background-color: rgb(241, 241, 241);
+    color: #666;
+}
+
+.box4 {
+    /* border: solid red; */
+    text-align: center;
+    padding: 3rem 5rem;
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.etiket5 {
+    background-color: black;
+    padding: 2rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    outline: 0.5rem inset purple;
+    outline-offset: 1rem;
+    line-height: 5rem;
+}
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
