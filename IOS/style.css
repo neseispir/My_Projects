@@ -29,6 +29,7 @@
 }
 .button:hover{
     background-color: #5a5757;
+    cursor: pointer;
     
 }
 .button:active{
